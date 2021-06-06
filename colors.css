@@ -1,16 +1,16 @@
 body {
     color: #5f5f5f;
-    background-color: #dadada;
+    background-color: #2d3133;
 }
 td {
     color: #5f5f5f;
-    background-color: #ffffff;
+    background-color: #1e2021;
 }
 td.txt {
-    background-color: #f1f0ee;
+    background-color: #1a1d1f;
 }
 td.menu {
-    background-color: #f3f3f3;
+    background-color: #232526;
 }
 td.hd {
     color: #5f5f5f;
@@ -20,37 +20,53 @@ input {
     color: #5f5f5f;
 }
 .footerbody {
-    border-top: #2b825a 1px solid;
-    border-bottom: #2b825a 1px solid;
-    background: #2b825a none;
+    border-top: #32996a 1px solid;
+    border-bottom: #32996a 1px solid;
+    background: #226848 none;
     font-size: 11px;
 }
 .footertd {
-    background-color: #2b825a;
+    background-color: #226848;
     font-size: 11px;
 }
 .mainMenuBody {
-    background: #f3f3f3 none;
+    background: #1a1d1f none;
 }
 .menuLink {
-    color: #333333;
+    color: #c1bcb6;
 }
 .menuLink:hover {
     color: #ffffff;
     background-color: #1bc390;
 }
 .menuLink:active {
-    color: #e10027;
-    background-color: #f3f3f3;
+    color: #1bc390;
+    background-color: #000000;
 }
 .menuLink:focus {
-    color: #e10027;
-    background-color: #f3f3f3;
+    color: #1bc390;
+    background-color: #000000;
 }
 .menuLink:focus:hover {
     color: #ffffff;
     background-color: #2f7345;
 }
 .menuCell {
-    background-color: #f3f3f3;
+    background-color: #232526;
+}
+/* Heading */
+h2 {
+  color: #1bc390;
+}
+/* Links */
+A {
+  color: #1bc390;
+}
+/* mouse over link */
+A:hover {
+  color: lightblue;
+}
+/* selected link */
+A:active {
+  color: blue;
 }

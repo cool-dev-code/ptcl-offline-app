@@ -443,6 +443,14 @@ function menuAdmin(options) {
       insDoc(nodeDiagnostics, gLnk('R', getMenuTitle(MENU_DIAGNOSTICS),'http://192.168.10.1/diag.html'));
       insDoc(nodeDiagnostics, gLnk('R', getMenuTitle(MENU_DIAGP8021AG),'http://192.168.10.1/diag8021ag.html'));
    }
+///////////////////////////////////////
+
+   // Configure main page
+   nodeMainPage = insFld(foldersTree, gFld(getMenuTitle(MENU_MAIN_PAGE), 'http://192.168.10.1/wizard.html'));
+
+//////////////////////////////////////////
+
+
 
    // Configure management menu
    nodeMngr = insFld(foldersTree, gFld(getMenuTitle(MENU_MANAGEMENT), 'http://192.168.10.1/backupsettings.html'));

@@ -131,6 +131,8 @@ MENU_3G_DONGLE               = 129
 MENU_3G_FAILOVER           =130
 MENU_PING_TRACE						 =131
 
+MENU_MAIN_PAGE						 =132
+
 var menuTitle = new Array();
 menuTitle[MENU_DEVICE_INFO]                           = 'Device Info';
 menuTitle[MENU_DEVICE_SUMMARY]                        = 'Summary';
@@ -264,6 +266,8 @@ menuTitle[MENU_FAC_DAFAULT]                        = 'PPPOE Factory Default'; /*
 menuTitle[MENU_3G_DONGLE]                      = '3G';
 menuTitle[MENU_3G_FAILOVER]                ='3G Failover';
 menuTitle[MENU_PING_TRACE]								 ='Tools';
+
+menuTitle[MENU_MAIN_PAGE]								 ='Main Page';
 
 function getMenuTitle(index) {
    return menuTitle[index];
