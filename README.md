@@ -1,28 +1,17 @@
 # ptcl-offline-app
 
-///////////////////////////////////////////////
-// PTCL login page offline App (Green Theme) //
-///////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+// PTCL login page offline App (Green Theme) Dark Mode //
+/////////////////////////////////////////////////////////
 
 ## Release Notes
-* Version 1.0
+* Version 2.0
 * Built using IP Address 192.168.10.1
 
-#Improvements in this version
-* Font Size set to small instead of x-small
-* Logo change
-* Resolution support upto (1280 X 720 16:9)
-* Green Theme
-* Extra Options if your router supports e.g.
-  In Advanced Setup:
-	Power Management
-	Dynamic DNS
-	3G
-	Print Server
-	Storage Service
-  In Management>Access Control:
-	Services
-	
+#Improvements in this version:
+* Dark Mode.
+* Wizard Page Added for easy operation.
+
 ## Known Bug
 * Problem with some Routers while opening ** Advanced Setup>Certificate **
 
