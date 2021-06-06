@@ -24,11 +24,11 @@
 	Services
 	
 ## Known Bug
-* Problem with some Routers while opening * Advanced Setup>Certificate *
+* Problem with some Routers while opening ** Advanced Setup>Certificate **
 
 ## 1st Time Usage
 * Just Download .zip file from github website and extract
-* Right Click index.html click *Create shortcut*
+* Right Click index.html click **Create shortcut**
 * Rename shortcut and paste on desktop or where ever you want
 
 ## Usage Instructions
