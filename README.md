@@ -7,7 +7,7 @@ PTCL Router page offline App (Green Theme)
 * Version 1.0
 * Built using IP Address 192.168.10.1
 
-#Improvements in this version
+## Improvements in this version
 * Font Size set to small instead of x-small
 * Logo change
 * Resolution support upto (1280 X 720 16:9)
