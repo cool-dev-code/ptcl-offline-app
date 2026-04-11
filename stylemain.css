@@ -1,29 +1,21 @@
 body {
     font-size: small;
-    font-family: "Arial", "sans-serif", "arial", "helvetica";
-}
+    font-family: "Arial";}
 td {
     font-size: small;
-    font-family: "Arial", "sans-serif", "arial", "helvetica";
-}
+    font-family: "Arial";}
 td.hd {
     font-weight: bold;
     font-size: small;
-    font-family: "Arial", "sans-serif", "arial", "helvetica";
-}
+    font-family: "Arial"}
 tr.hide {
-display:none
-}
+display:none}
 input {
     font-size: small;
-    font-family: "Arial", "sans-serif", "arial", "helvetica";
-}
+    font-family: "Arial";}
 .menuLink {
     font-weight: bold;
     font-size: small;
-    font-family: "Arial", "sans-serif", "arial", "helvetica";
-    width: 100%;
+    font-family: "Arial";
     cursor: hand;
-    text-decoration: none;
-    text-align: left;
-}
+    text-decoration: none;}

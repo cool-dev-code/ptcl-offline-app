@@ -1,59 +1,48 @@
 <html>
-   <head>
-      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
-         <link rel="stylesheet" href='stylemain.css' type='text/css'>
-         <link rel="stylesheet" href='colors.css' type='text/css'>
-		<script language='javascript' src='lang.js'></script>
-		<script language='javascript' src='connection.js'></script>
-			<script language="javascript">
-	<script>
-	</script>
-   </head>
-   <body>
-      <blockquote>
-         <form>
-			 <h2><b>PTCL Router Dark Green Theme By (Shuja Ahmed Butt)</b></h2>
-			 <br>
-			 <br>
-			 <br>
-				<br><A href='http://192.168.10.1/wlcfg.html'>Change Wifi Name</A> <br>
-				<br><A href='http://192.168.10.1/wlsecurity.html'>Change Wifi Password</A> <br>
-				<br><A href='http://192.168.10.1/backupsettings.html'>Backup Settings</A> <br>
-			 	<br><A href='http://192.168.10.1/updatesettings.html'>Restore Settings</A> <br>
-			 	<br><A href='http://192.168.10.1/resetrouter.html'>Restart Router</A> <br>
-			 <br>
-			 <br>
-			 
-			 <button onclick="Connection()">Check Connection with Router</button>
-			 
-			 <p style="color: #ffffff">Internet Connectivity Status: </p>
-			 <p style="color: red">Disconnected</p>
-			 <p style="color: #20C20E">Connected</p>
-			 <p style="color: #20C20E" id="conn"></p>
-			 <p style="color: red" id="disco"></p>
-			 
-         </form>
-				<script language="javascript">
-					lang_tran(MENU_MANAGEMENT,16,'');
-				</script>
-				
-		<script>
-			
-			function Connection()
-			{
-			if(navigator.onLine)
-				{
-			    alert('You are Connected to Router');
-				document.getElementById('conn').innerHTML = "Connected";
-			  }
-			  else
-			  {
-			    alert('You are Not Connected to Router')
-				document.getElementById('disco').innerHTML = "Disconnected";
-			  }
-			}
-			
-		</script>
-      </blockquote>
-   </body>
+<head>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<link rel="stylesheet" href='stylemain.css' type='text/css'>
+<link rel="stylesheet" href='colors.css' type='text/css'>
+<script language='javascript' src='lang.js'></script>
+<script language='javascript' src='connection.js'></script>
+</script>
+</head>
+<body>
+<blockquote>
+<form>
+	<h2><b>PTCL Broadcom Tenda Dark-Green Theme (Code Fanatic)</b></h2>
+	<br>
+	<br>
+	<br>
+<br><A href='http://192.168.10.1/wlcfg.html'>Change Wifi Name</A> <br>
+<br><A href='http://192.168.10.1/wlsecurity.html'>Change Wifi Password</A> <br>
+<br><A href='http://192.168.10.1/backupsettings.html'>Backup Settings</A> <br>
+	<br><A href='http://192.168.10.1/updatesettings.html'>Restore Settings</A> <br>
+	<br><A href='http://192.168.10.1/resetrouter.html'>Restart Router</A> <br>
+	<br>
+	<br>
+	
+	<button onclick="Connection()">Check Connection with Router</button>
+	
+	<p style="color: #ffffff">Internet Connectivity Status: </p>
+	<p style="color: red">Disconnected</p>
+	<p style="color: #20C20E">Connected</p>
+	<p style="color: #20C20E" id="conn"></p>
+	<p style="color: red" id="disco"></p>
+	
+</form>
+<script language="javascript">
+lang_tran(MENU_MANAGEMENT,16,'');
+</script>
+
+<script>
+
+function Connection(){
+	if(navigator.onLine){alert('You are Connected to Router');
+	document.getElementById('conn').innerHTML = "Connected";}else{alert('You are Not Connected to Router')
+	document.getElementById('disco').innerHTML = "Disconnected";}
+}
+</script>
+</blockquote>
+</body>
 </html>

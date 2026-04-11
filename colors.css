@@ -1,72 +1,53 @@
 body {
     color: #5f5f5f;
-    background-color: #2d3133;
-}
+    background-color: #2d3133;}
 td {
     color: #5f5f5f;
-    background-color: #1e2021;
-}
+    background-color: #1e2021;}
 td.txt {
-    background-color: #1a1d1f;
-}
+    background-color: #1a1d1f;}
 td.menu {
-    background-color: #232526;
-}
+    background-color: #232526;}
 td.hd {
     color: #5f5f5f;
-    background-color: #e0e0e0;
-}
+    background-color: #e0e0e0;}
 input {
-    color: #5f5f5f;
-}
+    color: #5f5f5f;}
 .footerbody {
     border-top: #32996a 1px solid;
     border-bottom: #32996a 1px solid;
     background: #226848 none;
-    font-size: 11px;
-}
+    font-size: 11px;}
 .footertd {
     background-color: #226848;
-    font-size: 11px;
-}
+    font-size: 11px;}
 .mainMenuBody {
-    background: #1a1d1f none;
-}
+    background: #1a1d1f none;}
 .menuLink {
-    color: #c1bcb6;
-}
+    color: #c1bcb6;}
 .menuLink:hover {
     color: #ffffff;
-    background-color: #1bc390;
-}
+    background-color: #1bc390;}
 .menuLink:active {
     color: #1bc390;
-    background-color: #000000;
-}
+    background-color: #000000;}
 .menuLink:focus {
     color: #1bc390;
-    background-color: #000000;
-}
+    background-color: #000000;}
 .menuLink:focus:hover {
     color: #ffffff;
-    background-color: #2f7345;
-}
+    background-color: #2f7345;}
 .menuCell {
-    background-color: #232526;
-}
+    background-color: #232526;}
 /* Heading */
 h2 {
-  color: #1bc390;
-}
+  color: #1bc390;}
 /* Links */
 A {
-  color: #1bc390;
-}
+  color: #1bc390;}
 /* mouse over link */
 A:hover {
-  color: lightblue;
-}
+  color: lightblue;}
 /* selected link */
 A:active {
-  color: blue;
-}
+  color: blue;}
